@@ -3,7 +3,7 @@ describe("warehousepagescheck", () => {
       cy.viewport(1468, 968); 
       cy.visit("https://oms-uat.test.uco.com/login/");
       cy.get("#username").click();
-      cy.get("#username").type("wuweili");
+      cy.get("#username").type("test");
       cy.get("#password").click();
       cy.get("#password").type("dummy");
       cy.get("div:nth-of-type(4) > input").click();
