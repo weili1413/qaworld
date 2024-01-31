@@ -4,9 +4,9 @@ describe("financecheck", () => {
     //再登录一次
     cy.visit("https://oms-uat.test.uco.com/login/");
     cy.get("#username").click();
-    cy.get("#username").type("wuweili");
+    cy.get("#username").type("test");
     cy.get("#password").click();
-    cy.get("#password").type("Oms@2023");
+    cy.get("#password").type("dummy");
     cy.get("div:nth-of-type(4) > input").click();
     cy.location("href").should("eq", "https://oms-uat.test.uco.com/");
     cy.get("div.nav-collapse > ul > li:nth-of-type(8) > a").click();
