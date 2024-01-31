@@ -5,7 +5,7 @@ describe("warehousepagescheck", () => {
       cy.get("#username").click();
       cy.get("#username").type("wuweili");
       cy.get("#password").click();
-      cy.get("#password").type("Oms@2023");
+      cy.get("#password").type("dummy");
       cy.get("div:nth-of-type(4) > input").click();
       cy.location("href").should("eq", "https://oms-uat.test.uco.com/");
       //旧页面仓库菜单下面所有未前后端分离的页面打开检查
