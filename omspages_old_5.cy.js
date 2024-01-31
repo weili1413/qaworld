@@ -3,10 +3,10 @@ describe("techsupport", () => {
     cy.viewport(1468, 968);
     cy.visit("https://oms-uat.test.uco.com/login/");
     cy.get("#username").click();
-    cy.get("#username").type("wuweili");
+    cy.get("#username").type("test");
     cy.get("form > div:nth-of-type(2)").click();
     cy.get("#password").click();
-    cy.get("#password").type("Oms@2023");
+    cy.get("#password").type("dummy");
     cy.get("div:nth-of-type(4) > input").click();
     cy.location("href").should("eq", "https://oms-uat.test.uco.com/");
     //魔法盒
