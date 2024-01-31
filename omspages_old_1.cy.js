@@ -6,7 +6,7 @@ describe('OmsOldPages', () => {
     cy.get('[id=owl-login]')
     cy.get('[id=login]')
     cy.get('[id=username]').type('test')
-    cy.get('[id=password]').type('Oms@2023')
+    cy.get('[id=password]').type('dummy')
     cy.get('[type=submit]').click()
     
     //以下页面都为老页面，未匹配风格
