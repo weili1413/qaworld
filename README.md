@@ -1,3 +1,4 @@
-# qaworld
-for qa auto test
-cypress learning for project auto test
+# QaWorld
+### Autotest for qa
+### Cypress learning
+### UI automation for oms
