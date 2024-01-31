@@ -6,7 +6,7 @@ describe('LoginForAll', () => {
     cy.get('[id=owl-login]')
     cy.get('[id=login]')
     cy.get('[id=username]').type('test')
-    cy.get('[id=password]').type('Oms@2023')
+    cy.get('[id=password]').type('dummy')
     cy.get('[type=submit]').click()
 
     //TC2产品-品牌商品管理下面的页面打开、搜索和结果确认
